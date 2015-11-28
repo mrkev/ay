@@ -14,7 +14,7 @@ import hcfg from 'home-config'
 
 const config = hcfg.load('.ay', {
     basedir : process.cwd(),
-    port    : 808,
+    port    : 8080,
     updir   : ''
 });
 config.save();
